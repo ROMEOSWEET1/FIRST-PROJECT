@@ -280,7 +280,7 @@ p {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	flex-wrap: wrap;
+	flex-wrap: wrap; 
 	margin-top: 50px;
 }
 #services .service-item {
@@ -403,6 +403,7 @@ p {
 }
 #projects .project-item:hover .project-img img {
 	transform: scale(1.1);
+	transition: 2s ease-in-out;
 }
 /* End Projects section */
 
